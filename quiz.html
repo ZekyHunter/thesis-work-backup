@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="styleQuiz.css">
+</head>
+<body>
+    <div class="intro">
+        <p>
+            How much do you know about Prague's inside easter eggs? Play the game!
+        </p>
+    </div>
+
+    <div class="gameModalBox">
+        <div class="content">
+            <img src="hangmanSvg/false.gif" alt="wrongGif">
+            <h4>Game over!</h4>
+            <p>The correct word was: <b>word</b></p>
+            <button class="playAgain">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangmanBox">
+            <h1>Hangman Game</h1>
+            <img src="hangmanSvg/hangman_0.svg" alt="hangmanImg">
+        </div>
+        <div class="gameBox">
+            <ul class="displayWord">
+            </ul>
+            <h4 class="hintText">Hint:
+            <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ipsum lau.</b>
+            </h4>
+            <h4 class="guessesText">Guesses:
+                <b>0 / 6</b>
+                </h4>
+            <div class="keyboard">
+                    
+            </div>
+        </div>
+    </div>
+    <script src="appQuiz.js"></script>
+</body>
+</html>
